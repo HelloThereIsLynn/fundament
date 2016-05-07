@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ccc;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+p{
+	text-indent: 2em;
+	margin-top: 10px;
+}
+h3,span{
+	color: #b9b9b9;
+	margin: 10px 0;
+}
+span{
+	font-size: 14px;
+	white-space: pre-wrap;
+}
+ul li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+	position: relative;
+}
+header img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 10px;
+}
+header ul{
+	float: right;
+	font-size: 14px;
+}
+header li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 10px;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+} 
+article,aside{
+	padding: 20px;
+	margin: 20px;
+	background: #fff;
+	box-shadow: 1px 1px 2px 1px #000;
+}
+figure{
+	border: 1px solid #ccc;
+	margin: 20px 0 0 80px;
+	padding: 10px;
+	width: 200px;
+}
+figcaption{
+	display: inline;
+	margin-left: 60px;
+}
+ol{
+	margin-left: 20px;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+table,tr,td,th{
+	border: 1px solid #ccc;
+}
+th{
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+tr:last-child{
+	background-color: #ccc;
+}
+aside div{
+	width: 3px;
+	height: 50px;
+	float: left;
+	background-color: #ccc;
+}
+h4{
+	margin: 15px;
+}
+aside{
+	position: relative;
+}
+label{
+	text-align: right;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 10px;
+}
+aside p{
+	text-indent: unset;
+	margin: -10px 0 10px 4px;
+	position: relative;
+	left: 50%;
+	color: #ccc;
+}
+.button{
+	color: #fff;
+	font-size: 18px;
+	width: 90%;
+	height: 50px;
+	display: block;
+	background-color: #74adf8;
+	text-align: center;
+	border-radius: 10px;
+	margin: 0 auto;
+
+}
+textarea{
+	width: 400px;
+	height: 100px;
+	display: inherit;
+	margin-right: 225px;
+	float: right;
+	margin-bottom: 10px;
+}
