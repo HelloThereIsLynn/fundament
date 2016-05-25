@@ -169,7 +169,7 @@ html {
   transform: translate(10px);
 }
 .demo li{
-  margin: 20px;
+  margin: 50px;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   list-style: none;
   line-height: 50px;
@@ -189,7 +189,8 @@ html {
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 24px;
-  min-width: 140px;
+  min-width: 240px;
+  border-radius: 5px;
 }
 a:focus {
   outline: thin dotted;
